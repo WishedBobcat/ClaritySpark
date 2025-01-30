@@ -16,6 +16,6 @@ async function generateClarity() {
             <p><strong>How to Apply:</strong> ${data.how_to_apply}</p>
         `;
     } catch (error) {
-        alert('Error connecting to ClaritySpark AI. Backend may not be running.');
+        alert('Error connecting to ClaritySpark AI. Please try again.');
     }
 }
